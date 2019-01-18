@@ -1,0 +1,22 @@
+{
+  "name": "cat-feeder",
+  "version": "1.0.0",
+  "description": "app to remote feed our pets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEbinger/cat-feeder.git"
+  },
+  "author": "DNS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEbinger/cat-feeder/issues"
+  },
+  "homepage": "https://github.com/DEbinger/cat-feeder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
