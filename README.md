@@ -1,4 +1,5 @@
 # cat-feeder
+
 Okay Team:
 
 Goals:
@@ -28,8 +29,6 @@ Feed Dog
 *- What kind of DB would we store the recorded video information on? Store last fed data, or 30 day record etc.*  
 *- How will our app interact/communicate with Raspbian?*  
 *- What kind of database do we need?*  
-
-
 
 
 Good work Team
