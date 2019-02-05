@@ -23,19 +23,33 @@
 }
 
 button {
+
+  height:100px;
+  width: 100px;
   background-color: #61dafb;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 75px;
+  box-shadow: inset 0px -3px 2px rgba(0,0,0,1), inset 0 2px 1px #61dafb; 
   color: #282c34;
   border-color: #cddaf5;
   font-weight: bold;
   font-size: 20px;
+  animation: button-for-nick-spin 7s infinite 5s ease-in-out;
 }
 
 
 @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes button-for-nick-spin {
   from {
     transform: rotate(0deg);
   }
