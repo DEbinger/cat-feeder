@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/DEbinger/cat-feeder#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.414.0"
   }
 }
