@@ -24,7 +24,6 @@ class App extends Component {
             Learn React
           </a>
           <br/>
-          <Navbar/>
           <h1 className = "buttons">
           <Button/>
           </h1>
